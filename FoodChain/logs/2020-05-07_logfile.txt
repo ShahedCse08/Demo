@@ -1,0 +1,4 @@
+2020-05-07 03:56:01.8880 ERROR Something went wrong in the GetCompanies action System.NullReferenceException: Object reference not set to an instance of an object.
+   at Repository.Repository.RepositoryBase`1.FindAll(Boolean trackChanges) in E:\CodeMaze\Ultimate\Bismillah\Demo\Repository\Repository\RepositoryBase.cs:line 17
+   at Repository.Domain.CompanyRepository.GetAllCompanies(Boolean trackChanges) in E:\CodeMaze\Ultimate\Bismillah\Demo\Repository\Domain\CompanyRepository.cs:line 23
+   at Demo.Controllers.CompaniesController.GetCompanies() in E:\CodeMaze\Ultimate\Bismillah\Demo\Demo\Controllers\CompaniesController.cs:line 31

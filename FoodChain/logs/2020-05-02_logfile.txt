@@ -1,0 +1,48 @@
+2020-05-02 05:54:32.5272 INFO Here is info message from our values controller.
+2020-05-02 05:54:32.7373 DEBUG Here is debug message from our values controller.
+2020-05-02 05:54:32.7541 WARN Here is warn message from our values controller.
+2020-05-02 05:54:32.7726 ERROR Here is an error message from our values controller.
+2020-05-02 06:02:39.7582 INFO Here is info message from our values controller.
+2020-05-02 06:02:39.8261 DEBUG Here is debug message from our values controller.
+2020-05-02 06:02:39.8696 WARN Here is warn message from our values controller.
+2020-05-02 06:02:39.8847 ERROR Here is an error message from our values controller.
+2020-05-02 06:11:43.9877 INFO Here is info message from our values controller.
+2020-05-02 06:11:44.0104 DEBUG Here is debug message from our values controller.
+2020-05-02 06:11:44.0928 WARN Here is warn message from our values controller.
+2020-05-02 06:11:44.1063 ERROR Here is an error message from our values controller.
+2020-05-02 06:17:34.6878 INFO Here is info message from our values controller.
+2020-05-02 06:17:34.7347 DEBUG Here is debug message from our values controller.
+2020-05-02 06:17:34.7751 WARN Here is warn message from our values controller.
+2020-05-02 06:17:34.7884 ERROR Here is an error message from our values controller.
+2020-05-02 06:23:59.4091 INFO Here is info message from our values controller.
+2020-05-02 06:23:59.6079 DEBUG Here is debug message from our values controller.
+2020-05-02 06:23:59.6315 WARN Here is warn message from our values controller.
+2020-05-02 06:23:59.6949 ERROR Here is an error message from our values controller.
+2020-05-02 22:23:55.3997 INFO Here is info message from our values controller.
+2020-05-02 22:23:55.3997 INFO Here is info message from our values controller.
+2020-05-02 22:23:55.6407 DEBUG Here is debug message from our values controller.
+2020-05-02 22:23:55.6543 DEBUG Here is debug message from our values controller.
+2020-05-02 22:23:55.6671 WARN Here is warn message from our values controller.
+2020-05-02 22:23:55.6671 WARN Here is warn message from our values controller.
+2020-05-02 22:23:55.6940 ERROR Here is an error message from our values controller.
+2020-05-02 22:23:55.7079 ERROR Here is an error message from our values controller.
+2020-05-02 22:25:36.3674 INFO Here is info message from our values controller.
+2020-05-02 22:25:36.4853 DEBUG Here is debug message from our values controller.
+2020-05-02 22:25:36.4999 WARN Here is warn message from our values controller.
+2020-05-02 22:25:36.7672 ERROR Here is an error message from our values controller.
+2020-05-02 22:57:58.9509 INFO Here is info message from our values controller.
+2020-05-02 22:57:59.2584 DEBUG Here is debug message from our values controller.
+2020-05-02 22:57:59.2733 WARN Here is warn message from our values controller.
+2020-05-02 22:57:59.2981 ERROR Here is an error message from our values controller.
+2020-05-02 22:58:29.1667 INFO Here is info message from our values controller.
+2020-05-02 22:58:29.1924 DEBUG Here is debug message from our values controller.
+2020-05-02 22:58:29.2063 WARN Here is warn message from our values controller.
+2020-05-02 22:58:29.2544 ERROR Here is an error message from our values controller.
+2020-05-02 23:09:04.2807 INFO Here is info message from our values controller.
+2020-05-02 23:09:04.4473 DEBUG Here is debug message from our values controller.
+2020-05-02 23:09:04.4666 WARN Here is warn message from our values controller.
+2020-05-02 23:09:04.5047 ERROR Here is an error message from our values controller.
+2020-05-02 23:11:41.3444 INFO Here is info message from our values controller.
+2020-05-02 23:11:41.5433 DEBUG Here is debug message from our values controller.
+2020-05-02 23:11:41.5605 WARN Here is warn message from our values controller.
+2020-05-02 23:11:41.6165 ERROR Here is an error message from our values controller.

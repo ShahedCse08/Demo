@@ -1,0 +1,7 @@
+2020-06-05 21:15:01.6958 ERROR Invalid model state for the EmployeeForCreationDto object
+2020-06-05 21:15:40.6993 ERROR Invalid model state for the EmployeeForCreationDto object
+2020-06-05 21:16:14.5232 ERROR Invalid model state for the EmployeeForCreationDto object
+2020-06-05 22:03:49.4324 ERROR EmployeeForCreationDto object sent from client is null.
+2020-06-05 22:04:18.1899 ERROR EmployeeForCreationDto object sent from client is null.
+2020-06-05 22:05:09.9495 ERROR EmployeeForCreationDto object sent from client is null.
+2020-06-05 22:05:33.4564 ERROR Invalid model state for the EmployeeForCreationDto object
