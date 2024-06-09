@@ -1,9 +1,13 @@
 ﻿using Contracts.Interfaces.Domain;
 using Contracts.Interfaces.Domain.OrderTest;
+using Contracts.Interfaces.Domain.PurchaseOrder;
 using Contracts.Interfaces.Repository;
+using Contracts.Interfaces.Utility;
 using Entities.Context;
 using Repository.Domain;
 using Repository.Domain.OrderTest;
+using Repository.Domain.PurchaseOrders;
+using Repository.Utility;
 using System.Threading.Tasks;
 
 namespace Repository.Repository
@@ -18,6 +22,11 @@ namespace Repository.Repository
         private IOrderRepository _orderRepository;
         private IProductRepository _productRepository;
         private IOrderDetailRepository _orderDetailRepository;
+        private IDropdownRepository _dropdownRepository;
+        private IPurchaseOrderRepository _purchaseOrderRepository;
+        private IPurchaseOrderDetailRepository _purchaseOrderDetailRepository;
+
+
         // private IEmailSender _emailSender;
         // private readonly EmailConfiguration _emailConfig;
         public RepositoryManager(RepositoryContext repositoryContext) {
@@ -88,6 +97,43 @@ namespace Repository.Repository
             }
         }
 
+        #endregion
+
+
+        #region PurchaseOrder
+
+        public IPurchaseOrderRepository PurchaseOrder
+        {
+            get
+            {
+                if (_purchaseOrderRepository == null)
+                    _purchaseOrderRepository = new PurchaseOrderRepository(_repositoryContext);
+                return _purchaseOrderRepository;
+            }
+        }
+
+        public IPurchaseOrderDetailRepository PurchaseOrderDetail
+        {
+            get
+            {
+                if (_purchaseOrderDetailRepository == null)
+                    _purchaseOrderDetailRepository = new PurchaseOrderDetailRepository(_repositoryContext);
+                return _purchaseOrderDetailRepository;
+            }
+        }
+
+        #endregion
+
+        #region Utility
+        public IDropdownRepository Dropdown
+        {
+            get
+            {
+                if (_dropdownRepository == null)
+                    _dropdownRepository = new DropdownRepository(_repositoryContext);
+                return _dropdownRepository;
+            }
+        }
         #endregion
 
 

@@ -1,5 +1,6 @@
 ﻿using Contracts.Interfaces.Domain;
 using Contracts.Interfaces.Domain.OrderTest;
+using Contracts.Interfaces.Utility;
 using Entities.Models.OrderTest;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,10 @@ namespace Contracts.Interfaces.Repository
         IOrderDetailRepository OrderDetail { get; }
         IProductRepository Product { get; }
 
+        #endregion
+
+        #region Utility
+        IDropdownRepository Dropdown { get; }
         #endregion
         Task SaveAsync();
     }

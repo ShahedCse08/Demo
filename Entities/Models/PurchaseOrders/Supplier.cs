@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.Models.OrderTest
+namespace Entities.Models.PurchaseOrders
 {
-    public class Customer
+    public class Supplier
     {
-        public int CustomerId { get; set; }
+        public int SupplierId { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        public virtual ICollection<Order> Orders { get; set; }
     }
 }
