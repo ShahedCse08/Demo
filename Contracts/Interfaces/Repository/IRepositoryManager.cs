@@ -1,5 +1,6 @@
 ﻿using Contracts.Interfaces.Domain;
 using Contracts.Interfaces.Domain.OrderTest;
+using Contracts.Interfaces.Domain.PurchaseOrders;
 using Contracts.Interfaces.Utility;
 using Entities.Models.OrderTest;
 using System;
@@ -24,8 +25,14 @@ namespace Contracts.Interfaces.Repository
 
         #endregion
 
+        #region Purchase Order
+        IPurchaseOrderRepository PurchaseOrder { get; }
+        IPurchaseOrderDetailRepository PurchaseOrderDetail { get; }
+        #endregion
+
         #region Utility
         IDropdownRepository Dropdown { get; }
+        IAutoCompleteRepository AutoComplete { get; }
         #endregion
         Task SaveAsync();
     }

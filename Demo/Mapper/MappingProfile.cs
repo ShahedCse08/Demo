@@ -6,6 +6,7 @@ using Entities.DataTransferObjects.Role;
 using Entities.DataTransferObjects.Update;
 using Entities.DataTransferObjects.User;
 using Entities.Models;
+using Entities.Models.PurchaseOrders;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -40,8 +41,8 @@ namespace Demo.Mapper
             #endregion
 
             #region Demo
-            
-
+            CreateMap<PurchaseOrderCreationDto, PurchaseOrder>();
+            CreateMap<PurchaseOrderDetailCreationDto, PurchaseOrderDetail>();
             #endregion
 
 

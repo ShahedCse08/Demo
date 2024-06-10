@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Repository.Repository
 {
@@ -46,7 +47,13 @@ namespace Repository.Repository
 
         public void Delete(T entity) => RepositoryContext.Set<T>().Remove(entity);
 
-      
+        public async Task<T> CreateAndReturnAsync(T entity)
+        {
+            await RepositoryContext.Set<T>().AddAsync(entity);
+            await RepositoryContext.SaveChangesAsync();
+            return entity;
+        }
+
     }
 
 

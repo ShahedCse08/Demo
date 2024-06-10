@@ -1,6 +1,6 @@
 ﻿using Contracts.Interfaces.Domain;
 using Contracts.Interfaces.Domain.OrderTest;
-using Contracts.Interfaces.Domain.PurchaseOrder;
+using Contracts.Interfaces.Domain.PurchaseOrders;
 using Contracts.Interfaces.Repository;
 using Contracts.Interfaces.Utility;
 using Entities.Context;
@@ -23,6 +23,7 @@ namespace Repository.Repository
         private IProductRepository _productRepository;
         private IOrderDetailRepository _orderDetailRepository;
         private IDropdownRepository _dropdownRepository;
+        private IAutoCompleteRepository _autoCompleteRepository;
         private IPurchaseOrderRepository _purchaseOrderRepository;
         private IPurchaseOrderDetailRepository _purchaseOrderDetailRepository;
 
@@ -132,6 +133,17 @@ namespace Repository.Repository
                 if (_dropdownRepository == null)
                     _dropdownRepository = new DropdownRepository(_repositoryContext);
                 return _dropdownRepository;
+            }
+        }
+
+
+        public IAutoCompleteRepository AutoComplete
+        {
+            get
+            {
+                if (_autoCompleteRepository == null)
+                    _autoCompleteRepository = new AutoCompleteRepository(_repositoryContext);
+                return _autoCompleteRepository;
             }
         }
         #endregion
